@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../imgs/farm2.jpg');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li,
+a,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(25, 105, 25, 0.7);
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #00ff02;
+}
+
+
+#botao_login {
+    padding: 9px 25px;
+    background-color: rgb(0, 160, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 2px 2px 9px black;
+}
+
+#botao_login:hover {
+    background-color: rgba(0, 160, 0, 0.8);
+}
+
+#menu {
+    margin-top: 5%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#form_inicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 30px;
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#head h1 {
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+}
+
+#head h1::before {
+    position: absolute;
+    content: '';
+    width: 150px;
+    background-color: #e6e6e6;
+    height: 3px;
+    border-radius: 5px;
+}
+
+#text {
+    color: #cecece;
+    font-size: 20px;
+}
+
+#botao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#botao1 {
+    padding: 9px 25px;
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    background-color: #2d9b08;
+}
+
+#botao1:hover {
+    background-color: rgba(0, 160, 0, 0.8);
+}
+
+
+#botao2 {
+    padding: 9px 25px;
+    border: 2px solid #fff;
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    background: transparent;
+}
+
+#botao2:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#container {
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 1000px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#titulo {
+    color: #cecece;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+}
+
+#pessoas {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 160px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#pessoas img {
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#pessoas a img {
+    border-radius: 0;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: all 0.3s ease 0s;
+}
+#pessoas a img:hover{
+    transform: scale(1.2);
+}
+
+#saiba {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 1100px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+table {
+    border-spacing: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+
+td {
+    width: 500px;
+}
+
+
+#saiba-mais a {
+    color: #00ff02;
+}
+
+#sobre a{
+    color: #00ff02;
+}

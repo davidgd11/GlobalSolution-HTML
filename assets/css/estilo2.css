@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url('../imgs/farm3.jpg');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li, a, button{
+    font-family:'Montserrat', sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color:#fff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(25, 105, 25, 0.7);
+}
+
+.logo{
+    width: 160px;
+    height:60px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #00ff02;
+}
+
+button{
+    cursor: pointer;
+}
+
+#botao_login{
+padding: 9px 25px;
+background-color: rgb(0, 160, 0, 0.4);
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+box-shadow: 2px 2px 9px black;
+}
+
+#botao_login:hover{
+    background-color: rgba(0, 160, 0, 1);
+}
+
+
+
+
+
+
+
+:root{
+    --color-light-50: #f8fafc;
+    
+    --color-dark-50: #797884;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000;
+
+    --color-green-50: #149700;
+    --color-green-100: #1a781d;
+    --color-green-200: #005308;
+
+}
+
+#container{
+    margin-top: 100px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login_form{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0,0,0, 0.9);
+    height: fit-content;
+    width: 600px;
+}
+
+#login_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login_head h1{
+    margin-left: 110px;
+    font-size: 40px;
+    position: relative;
+    color: var(--color-light-50);
+}
+
+#login_head h1::before{
+    position: absolute;
+    content:'' ;
+    width: 40px;
+    background-color: var(--color-green-50);
+    height: 3px;
+    bottom: 3px;
+    border-radius: 5px;
+}
+
+#social_media{
+    display:flex;
+    justify-content: space-around;
+}
+
+#social_media img{
+    width: 35px;
+}
+
+#social_media img:hover{
+    transform: scale(1.2);
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-box label{
+    font-size: 14px;
+    color: var(--color-light-50);
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid var(--color-green-50);
+}
+
+.input-field i{
+    font-size:18px ;
+    color: var(--color-light-50);
+}
+
+.input-field input{
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 18px ;
+    padding: 0px 5px;
+    color: var(--color-light-50);
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+#forgot_password a{
+    text-decoration: none;
+    font-size:12px;
+    color:var(--color-dark-50);
+    transition: all 0.3s ease 0s;
+}
+
+#forgot_password:hover a{
+    color: #00ff02;
+}
+
+#login_button{
+    border: none;
+    background: var(--color-green-200);
+    color: var(--color-light-50);
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#login_button:hover{
+    transform: scale(1.05);
+}

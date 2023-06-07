@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/estilo2.css">
+    <link rel="shortcut icon" type="image/svg" href="assets/imgs/logo.svg">
+    <title>Página de login</title>
+</head>
+<body>
+    <header>
+        <a href="a-index.html"><img src="assets/imgs/logo.svg" alt="Logo" class="logo"></a>
+        <nav>
+            <ul class="nav_links">
+                <li id="home1"><a href="a-index.html">Home</a></li>
+                <li><a href="a-produtos.html">Produtos</a></li>
+                <li><a href="a-servicos.html">Serviços</a></li>
+                <li><a href="a-saibamais.html">Saiba mais</a></li>
+                <li><a href="a-sobre.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+        <a href="a-login.html" class="cta"><button id="botao_login">Login </button></a>
+    </header>
+
+    <main id="container">
+        <form id="login_form">
+            <div id="login_head">
+                <h1>Login</h1>
+            </div>
+            <div id="social_media">
+                <a href="#">
+                    <img src="assets/imgs/facebook.png" alt="Facebook Img">
+                </a>
+                <a href="#"> 
+                    <img src="assets/imgs/google.png" alt="Google Img">
+                 </a>
+
+                 <a href="#">
+                    <img src="assets/imgs/insta.png" alt="Insta Img">
+                 </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="nome" name="name" required> 
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                    </label>
+
+                    <div id="forgot_password">
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+                </div>
+            </div>
+            
+            <button type="submit" id="login_button"> Login </button>
+        </form>
+    </main>
+
+
+
+</body>
+</html>
