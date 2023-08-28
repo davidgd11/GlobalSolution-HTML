@@ -140,6 +140,7 @@ box-shadow: 2px 2px 9px black;
 }
 
 #botao1{
+    border: none;
     transition: all 0.3s ease 0s;
     border-radius: 50px;
     background-color: #2d9b08;
